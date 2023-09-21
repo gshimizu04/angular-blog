@@ -7,11 +7,11 @@
   </div>
   <div class="big-card__title">
     <span>{{ cardDate }}</span>
-    <h1><a href="https://www.adrenaline.com.br/games/pc-games/cyberpunk-phantom-liberty-confira-as-notas-da-dlc-pela-imprensa-global/">{{ cardTitle }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="https://www.adrenaline.com.br/games/pc-games/cyberpunk-phantom-liberty-confira-as-notas-da-dlc-pela-imprensa-global/">
+      <a [routerLink]="['content', Id]">
         {{ cardDescription }}
       </a>
     </p>
